@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CreditCardApp</string>
+    <string name="nome">Nome:</string>
+    <string name="banco_do_brasil">BANCO DO BRASIL</string>
+</resources>
