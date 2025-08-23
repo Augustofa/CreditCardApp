@@ -1,6 +1,7 @@
 package com.example.creditcardapp
 
 import android.os.Bundle
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +17,12 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        validateFields()
+    }
+
+    fun validateFields() {
+        val numberView = findViewById<TextView>(R.id.cardNumberView)
+        val numberText = numberView.text.toString()
+        numberView.text = numberText.chunked(4).joinToString(separator = " ")
     }
 }
