@@ -4,7 +4,7 @@
     <string name="card_name">Ourocard</string>
     <string name="bb_logo">BB Logo</string>
     <string name="client_name">Cliente da Silva</string>
-    <string name="card_number">0000111122223333</string>
+    <string name="card_number">0000 1111 2222 3333</string>
     <string name="expiration_date">12/25</string>
     <string name="data_exp">Data \nExp.</string>
     <string name="cvv">CVV</string>
