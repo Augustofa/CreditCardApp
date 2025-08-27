@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CreditCardApp</string>
     <string name="nome">Nome:</string>
-    <string name="card_name">Ourocard</string>
+    <string name="card_name">ourocard</string>
     <string name="bb_logo">BB Logo</string>
     <string name="client_name">Cliente da Silva</string>
     <string name="card_number">0000 1111 2222 3333</string>
